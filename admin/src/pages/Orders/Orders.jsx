@@ -29,6 +29,7 @@ const Orders = ({url}) => {
     }
   }
 
+  // fetch all ordres
 
 useEffect(()=>{
   fetchAllOrders();
