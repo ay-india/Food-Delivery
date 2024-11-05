@@ -5,6 +5,8 @@ import { useContext } from 'react';
 import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
 
+//payemetn verification 
+
 const Verify = () => {
 
     const [searchParams,setSearchParams] = useSearchParams();
