@@ -14,7 +14,11 @@ const port = 4000
 
 // middleware
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin:["https://food-delivery-frontend-zeta.vercel.app"],
+    methods:["GET","POST","PUT","DELETE"],
+    credentials:true
+}));
 // backend
 // db connection
 connectDB();
